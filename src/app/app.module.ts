@@ -4,14 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from "./app-routing.module";
 
 import { AppComponent } from './root/app.component';
-import { MenuComponent } from "./menu/menu.component";
+import { TestComponent } from "./test/test.component";
 
 @NgModule({
     imports:        [
         BrowserModule,
         AppRoutingModule
     ],
-    declarations:   [ AppComponent, MenuComponent ],
+    declarations:   [ AppComponent, TestComponent ],
     bootstrap:      [ AppComponent ]
 })
 export class AppModule { }

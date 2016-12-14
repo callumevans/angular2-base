@@ -109,8 +109,7 @@ gulp.task('bundle-app', function () {
 
     return builder
         .buildStatic(dist + '/app/**/*.js', dist + '/app.js', {
-            minify: true,
-            globalName: 'loggyApp'
+            minify: true
         });
 });
 
